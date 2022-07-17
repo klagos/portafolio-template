@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Folio Bootstrap Template - Index</title>
+  <title>Kevin Lagos's Portfolio</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -49,7 +49,7 @@
           <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
           <li><a class="nav-link scrollto" href="#about">About</a></li>
           <li><a class="nav-link  scrollto" href="#portfolio">Portfolio</a></li>
-          <li><a class="nav-link  scrollto" href="#journal">Blog</a></li>
+          <li><a class="nav-link  scrollto" href="#journal">Education</a></li>
           <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -80,8 +80,8 @@
 
     <div class="container">
       <div class="hero-content">
-        <h1>I'm <span class="typed" data-typed-items="Kevin Lagos, Data Scientist, IA Researcher"></span></h1>
-        <p>Data Scientist, IA Researcher</p>
+        <h1>I'm <span class="typed" data-typed-items="Kevin Lagos, a Data Scientist, an AI Researcher"></span></h1>
+        <p>Data Scientist, AI Researcher</p>
 
         <ul class="list-unstyled list-social">
           <li><a href="https://github.com/klagos?tab=repositories"><i class="bi bi-github"></i></a></li>
@@ -107,12 +107,19 @@
           </div>
 
           <div class="col-lg-7">
-            <div class="about-descr">
+              <div class="about-descr">
 
-              <p class="p-heading">I'm an Data Scientist/AI Researcher who loves knowledge and innovation.</p>
-              <p class="separator">Knowledge is power, and also a cup of coffee gives you enough strength to keep fighting.</p>
-
-            </div>
+                  <p class="p-heading">I'm a Data Scientist/AI Researcher who loves knowledge and innovation.</p>
+                  <p class="separator">
+                      Born in Chile. Focused on making use of artificial intelligence to help companies/people make decisions to generate value.
+                  </p>
+                  <p class="p-heading">What are my skills/knowledge?</p>
+                  <ul>
+                      <li><p class="separator"> Most of the work I've done is based on python: Data Mining, Recommender Systems, Neural Networks, EDA, etc.</p></li>
+                      <li><p class="separator"> High knowledge modeling and solving NP-hard combinatorial problems: Local Search Algorithms, Evolutionary Computation.</p></li>
+                      <p class="separator"></p>
+                  </ul>
+              </div>
 
           </div>
         </div>
@@ -192,177 +199,186 @@
       </div>
 
       <div class="container">
+          <!--
+    <div class="row">
+      <div class="col-lg-12 d-flex justify-content-center">
+        <ul id="portfolio-flters">
+          <li data-filter="*" class="filter-active">All</li>
+          <li data-filter=".filter-app">App</li>
+          <li data-filter=".filter-card">Card</li>
+          <li data-filter=".filter-web">Web</li>
+        </ul>
+      </div>
+    </div>-->
 
-        <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">App</li>
-              <li data-filter=".filter-card">Card</li>
-              <li data-filter=".filter-web">Web</li>
-            </ul>
+          <div class="row portfolio-container">
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <img src="assets/img/portfolio/clustering.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                      <h4>Clustering applied over Cervical Cancer Risk data</h4>
+                      <p>Notebook with applications of clustering algorithms to a Cervical Cancer Risk dataset.</p>
+                      <!--<a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>-->
+                      <a href="https://github.com/klagos/portafolio/blob/main/Clustering_Cervical_Cancer.ipynb" class="details-link" title="Github Repository"><i class="bx bx-link-external"></i></a>
+                  </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                  <img src="assets/img/portfolio/clusteringdata.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                      <h4>Clustering bidimensional vector data</h4>
+                      <p>Notebook with applications of clustering algorithms to a bidimensional vector dataset.</p>
+                      <!--<a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>-->
+                      <a href="https://github.com/klagos/portafolio/blob/main/Clustering_bidimensional_vector_data.ipynb" class="details-link" title="Github Repository"><i class="bx bx-link-external"></i></a>
+                  </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <img src="assets/img/portfolio/flea.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                      <h4>Neural Networks Analysis</h4>
+                      <p>Application of neural networks, CNN, hyperparameter tuning, etc. w/Kaggle known datasets.</p>
+                      <!--<a href="assets/img/portfolio/flea.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>-->
+                      <a href="https://github.com/klagos/portafolio/blob/main/Neural%20Networks%20Analysis.ipynb" class="details-link" title="Github Repository"><i class="bx bx-link-external"></i></a>
+                  </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                  <img src="assets/img/portfolio/cervicalcancer.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                      <h4>Prediction of Cervical Cancer Risk</h4>
+                      <p>Study of different algorithms to predict the risk of cervical cancer.</p>
+                      <!--<a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>-->
+                      <a href="https://github.com/klagos/portafolio/blob/main/Prediction_Cervical_Cancer.ipynb" class="details-link" title="Github Repository"><i class="bx bx-link-external"></i></a>
+                  </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                  <img src="assets/img/portfolio/rnn.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                      <h4>RNN & GAN Analysis</h4>
+                      <p>Study of RNNs and GAN applied to different datasets.</p>
+                      <!--<a href="assets/img/portfolio/rnn.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-link-external"></i></a>-->
+                      <a href="https://github.com/klagos/portafolio/blob/main/RNN.ipynb" class="details-link" title="Github Repository"><i class="bx bx-link-external"></i></a>
+                  </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <img src="assets/img/portfolio/ispsolver.png" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                      <h4>Modeling and Solving "Interrogation Scheduling Problem"</h4>
+                      <p>Thesis's software that solves an NP-Hard combinatorial problem.</p>
+                      <!--<a href="assets/img/portfolio/ispsolver.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>-->
+                      <!--<a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link-external"></i></a>-->
+                  </div>
+              </div>
+
+              <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                  <img src="assets/img/portfolio/movies.jpg" class="img-fluid" alt="">
+                  <div class="portfolio-info">
+                      <h4>Recommender System: MovieLens & Book-Crossing</h4>
+                      <p>Recommender System built in python applied to MovieLens and Book-Crossing known datasets.</p>
+                      <!--<a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>-->
+                      <a href="https://github.com/klagos/portafolio/blob/main/RecommenderSystem.ipynb" class="details-link" title="More Details"><i class="bx bx-link-external"></i></a>
+                  </div>
+              </div>
+
           </div>
-        </div>
-
-        <div class="row portfolio-container">
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-1.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Clustering applied over Cervical Cancer Risk data</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-1.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 1"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="Github Repository"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/clusteringdata.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Clustering bidimensional vector data</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-2.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="Github Repository"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-3.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Neural Networks Analysis</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-3.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="Github Repository"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/cervicalcancer.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Prediction of Cervical Cancer Risk</h4>
-              <p>Card</p>
-              <a href="assets/img/portfolio/portfolio-4.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Card 2"><i class="bx bx-plus"></i></a>
-              <a href="https://github.com/klagos/portafolio/blob/main/Prediction_Cervical_Cancer.ipynb" class="details-link" title="Github Repository"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/portfolio-5.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>RNN & GAN Analysis</h4>
-              <p>Web</p>
-              <a href="assets/img/portfolio/portfolio-5.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Web 2"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="Github Repository"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/portfolio-6.jpg" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>App 3</h4>
-              <p>App</p>
-              <a href="assets/img/portfolio/portfolio-6.jpg" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="App 3"><i class="bx bx-plus"></i></a>
-              <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a>
-            </div>
-          </div>
-
-        </div>
 
       </div>
 
     </div><!-- End Portfolio Section -->
+                    <!-- ======= Journal Section ======= -->
+                    <div id="journal" class="text-left paddsection">
 
-    <!-- ======= Journal Section ======= -->
-    <div id="journal" class="text-left paddsection">
+                        <div class="container">
+                            <div class="section-title text-center">
+                                <h2>Education</h2>
+                            </div>
+                        </div>
 
-      <div class="container">
-        <div class="section-title text-center">
-          <h2>Education</h2>
-        </div>
-      </div>
+                        <div class="container">
+                            <div class="journal-block">
+                                <div class="row">
 
-      <div class="container">
-        <div class="journal-block">
-          <div class="row">
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="journal-info">
 
-            <div class="col-lg-4 col-md-6">
-              <div class="journal-info">
+                                            <a href="blog-single.html"><img src="assets/img/Logo_UTFSM.png" class="img-responsive" alt="img"></a>
 
-                <a href="blog-single.html"><img src="assets/img/Logo_UTFSM.png" class="img-responsive" alt="img"></a>
+                                            <div class="journal-txt">
 
-                <div class="journal-txt">
+                                                <h4><a href="blog-single.html">Professional Title: Computer Sience and Engineering (2016-2021)</a></h4>
+                                                <p class="separator">
+                                                    Universidad Técnica Federico Santa María, Chile
+                                                </p>
 
-                  <h4><a href="blog-single.html">Professional Title: Computer Sience and Engineering (2016-2021)</a></h4>
-                  <p class="separator">Universidad Técnica Federico Santa María, Chile
-                  </p>
+                                            </div>
 
-                </div>
+                                        </div>
+                                    </div>
 
-              </div>
-            </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="journal-info">
 
-            <div class="col-lg-4 col-md-6">
-              <div class="journal-info">
+                                            <a href="blog-single.html"><img src="assets/img/sevillau.png" class="img-responsive" alt="img"></a>
 
-                <a href="blog-single.html"><img src="assets/img/sevillau.png" class="img-responsive" alt="img"></a>
+                                            <div class="journal-txt">
+                                                <h4><a href="blog-single.html">University Exchange (2020)</a></h4>
+                                                <p class="separator">
+                                                    Universidad de Sevilla, España
+                                                </p>
 
-                <div class="journal-txt">
-                    <h4><a href="blog-single.html">University Exchange (2020)</a></h4>
-                    <p class="separator">
-                        Universidad de Sevilla, España
-                    </p>
+                                            </div>
 
-                </div>
+                                        </div>
+                                    </div>
 
-              </div>
-            </div>
+                                    <div class="col-lg-4 col-md-6">
+                                        <div class="journal-info">
 
-            <div class="col-lg-4 col-md-6">
-              <div class="journal-info">
+                                            <a href="blog-single.html"><img src="assets/img/Logo_UTFSM.png" class="img-responsive" alt="img"></a>
 
-                <a href="blog-single.html"><img src="assets/img/Logo_UTFSM.png" class="img-responsive" alt="img"></a>
+                                            <div class="journal-txt">
+                                                <h4><a href="blog-single.html">Master's Degree: Science in Computer Engineering (2021-In Process)</a></h4>
+                                                <p class="separator">
+                                                    Universidad Técnica Federico Santa María, Chile
+                                                </p>
 
-                <div class="journal-txt">
-                    <h4><a href="blog-single.html">Master's Degree: Science in Computer Engineering (2021-In Process)</a></h4>
-                    <p class="separator">
-                        Universidad Técnica Federico Santa María, Chile
-                    </p>
+                                            </div>
 
-                </div>
+                                        </div>
+                                    </div>
 
-              </div>
-            </div>
+                                </div>
+                            </div>
+                        </div>
 
-          </div>
-        </div>
-      </div>
+                    </div><!-- End Journal Section -->
+                    <!-- ======= Contact Section ======= -->
+                    <div id="contact" class="paddsection">
+                        <div class="container">
+                            <div class="contact-block1">
+                                <div class="row">
 
-    </div><!-- End Journal Section -->
+                                    <div class="col-lg-6">
+                                        <div class="contact-contact">
 
-    <!-- ======= Contact Section ======= -->
-    <div id="contact" class="paddsection">
-      <div class="container">
-        <div class="contact-block1">
-          <div class="row">
+                                            <h2 class="mb-30">GET IN TOUCH</h2>
 
-            <div class="col-lg-6">
-              <div class="contact-contact">
+                                            <ul class="contact-details">
+                                                <li><span>+56 9 72977707</span></li>
+                                                <li><span>k.lagoslavin@gmail.com</span></li>
+                                                <li><span>kevin.lagos@usm.cl</span></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div><!-- End Contact Section -->
 
-                <h2 class="mb-30">GET IN TOUCH</h2>
-
-                <ul class="contact-details">
-                  <li><span>+56 9 72977707</span></li>
-                  <li><span>k.lagoslavin@gmail.com</span></li>
-                  <li><span>kevin.lagos@usm.cl</span></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div><!-- End Contact Section -->
-
-  </main><!-- End #main -->
+</main><!-- End #main -->
 
   <!-- ======= Footer ======= -->
   <div id="footer" class="text-center">
@@ -370,10 +386,8 @@
       <div class="socials-media text-center">
 
         <ul class="list-unstyled">
-          <li><a href="#"><i class="bi bi-facebook"></i></a></li>
-          <li><a href="#"><i class="bi bi-twitter"></i></a></li>
-          <li><a href="#"><i class="bi bi-instagram"></i></a></li>
-          <li><a href="#"><i class="bi bi-linkedin"></i></a></li>
+          <li><a href="https://github.com/klagos?tab=repositories"><i class="bi bi-github"></i></a></li>
+          <li><a href="https://linkedin.com/in/klagoslavin/"><i class="bi bi-linkedin"></i></a></li>
         </ul>
 
       </div>
